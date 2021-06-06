@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Webpage 02</title>
+    <style>
+        .left {
+            float: left;
+            border-right: 4px solid black;
+            padding-right: 6vw;
+        }
+        .right {
+            float: right;
+            margin-right: 10vw;
+        }
+        audio {
+            margin-top: 25vh;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="left">
+        <h1>Welcome to the Video player.</h1>
+
+        <video width="640" height="420" controls loop poster="alive.jpg">
+            <source src="Sia_Alive.mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h2>Click on the video to play.</h2>
+        <p>Alive -- Sia </p>
+
+    </div>
+    
+    <div class="right">
+        <h1>Welcome to the Audio player.</h1>
+
+        <audio controls>
+            <source src="Sia_Courage to Change.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <h2>Click on the audio to play.</h2>
+        <p>Courage to Change -- Sia </p>
+    </div>
+</body>
+</html>
